@@ -1,0 +1,14 @@
+{
+    // 配置名称，将会在启动配置的下拉菜单中显示
+    "name": "test",
+    // 配置类型
+    "type": "node",
+    // 请求配置类型，可以为launch（启动）或attach（附加）
+    "request": "launch",
+    // 将要进行调试的程序的路径
+    "program": "${workspaceFolder}/src/script/handler/text.js",
+    // 程序调试时传递给程序的命令行参数，一般设为空即可
+    "args": [],
+    // console执行方式 1、integratedTerminal 编辑器内部终端执行 2、externalTerminal 外部终端执行
+    "console": "integratedTerminal"
+}
